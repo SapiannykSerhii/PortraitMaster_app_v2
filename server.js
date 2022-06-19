@@ -40,5 +40,5 @@ app.get('*', (req, res) => {
 });
 
 app.use((req, res) => {
-  res.status(404).send({ message: 'Not found...' });
+  res.status(404).send({message: 'Not found...' });
 });
